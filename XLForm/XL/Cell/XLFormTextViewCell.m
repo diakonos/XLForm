@@ -123,7 +123,10 @@ NSString *const kFormTextViewCellPlaceholder = @"placeholder";
 
 +(CGFloat)formDescriptorCellHeightForRowDescription:(XLFormRowDescriptor *)rowDescriptor
 {
+    /* Justin Ling
     return 110.f;
+     */
+    return 200.f;
 }
 
 -(NSError *)formDescriptorCellLocalValidation
